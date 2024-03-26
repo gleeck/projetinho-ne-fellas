@@ -1,3 +1,10 @@
 :root{
-    --cor-de-fundo:
+    --cor-de-fundo: #3F6C41;
+    --vermelho: rgba(255, 0, 0, 1);
+    --verde: #A1FF57;
+    --botao-ativo: rgba(203, 0, 0, 1);
+    --botao-inativo: rgb(255, 0, 0);
+    
+
+    
 }
