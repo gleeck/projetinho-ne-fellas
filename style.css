@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 :root{
     --cor-de-fundo: #3F6C41;
@@ -11,5 +10,23 @@
 
 body{
     background-color: var(--cor-de-fundo);
-    color: var(-);
+    color: var(--branco);
+    font-family: 'chakra petch' sans-serief;
+
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+}
+
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: 
+    align-items: center;
+    max width:1200px;
+    width:100%;
+    margin: 0 auto;
+    
+
+
 }
