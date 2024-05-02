@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
     
@@ -50,4 +50,31 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
+    border-bottom: 4px solid var(--botao-ativo) ;
+    border-left: 4px solid var(--botao-ativo) ;
+    border-right: 4px solid var(--botao-ativo) ;
+    border-top: none ;
+
+}
+
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+
+.botoes{
+    display: block;
+
+}
+
+@media  screen and (min-width: 768px) {
+    .botoes{
+        display: flex
+    }
+.botao:first-child{
+    border-radius: 40px 0 0 0;
+}
+.botao last-child{
+    border-radius: 0 40px 0 0; 
+}
+ 
 }
